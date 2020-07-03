@@ -34,8 +34,8 @@ app.get('/about', (req, res)=>{
  
 app.get('/help', (req, res)=>{
     res.render('help', {
-        title: 'Help me',
-        content: 'Help me or I will die :(',
+        title: 'Help',
+        content: 'Contact rahulrajkhare@gmail.com if you are facing issues with this website.',
         name: 'Rahul khare'
     })
 })
